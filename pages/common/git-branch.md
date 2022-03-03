@@ -7,6 +7,14 @@
 
 `git branch --all`
 
+- List local branches only:
+
+`git branch --list`
+
+- List remote branches only:
+
+`git branch --remote`
+
 - List which branches include a specific Git commit in their history:
 
 `git branch --all --contains {{commit_hash}}`
